@@ -1,1 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
 
+  <id>urn:x3:newspapers</id>
+
+  <title>My X3 Library</title>
+
+  <updated>2026-09-07T00:00:00Z</updated>
+
+  <link
+    rel="self"
+    href="index.xml"
+    type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+
+  <entry>
+    <title>Test EPUB</title>
+
+    <id>urn:x3:test-epub</id>
+
+    <updated>2026-09-07T00:00:00Z</updated>
+
+    <author>
+      <name>Test</name>
+    </author>
+
+    <content type="text">
+      Test download for the XTEINK X3.
+    </content>
+
+    <link
+      rel="http://opds-spec.org/acquisition"
+      href="books/test.epub"
+      type="application/epub+zip"/>
+  </entry>
+
+</feed>
