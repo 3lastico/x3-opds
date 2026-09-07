@@ -2,31 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom"
       xmlns:opds="http://opds-spec.org/2010/catalog">
 
-  <id>urn:x3:opds</id>
+  <id>urn:uuid:x3-opds-test</id>
   <title>My X3 Library</title>
   <updated>2026-09-07T00:00:00Z</updated>
 
   <link
     rel="self"
-    href="index.xml"
-    type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    href="https://3lastico.github.io/x3-opds/index.xml"
+    type="application/atom+xml;profile=opds-catalog;kind=acquisition" />
 
   <entry>
     <title>Test EPUB</title>
-    <id>urn:x3:test</id>
+    <id>urn:uuid:test-epub-001</id>
     <updated>2026-09-07T00:00:00Z</updated>
 
     <author>
       <name>Test</name>
     </author>
 
-    <content type="text">Test book for CrossPoint.</content>
+    <summary type="text">Test EPUB for CrossPoint</summary>
 
     <link
-      rel="http://opds-spec.org/acquisition"
-      href="books/Flowers for Algernon.epub"
-      type="application/epub+zip"/>
+      rel="http://opds-spec.org/acquisition/open-access"
+      href="https://3lastico.github.io/x3-opds/books/test.epub"
+      type="application/epub+zip" />
   </entry>
 
-</feed>
 </feed>
