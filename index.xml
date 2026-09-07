@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"
-      xmlns:dc="http://purl.org/dc/terms/"
       xmlns:opds="http://opds-spec.org/2010/catalog">
 
-  <id>urn:x3:newspapers</id>
-
+  <id>urn:x3:opds</id>
   <title>My X3 Library</title>
-
   <updated>2026-09-07T00:00:00Z</updated>
 
   <link
@@ -16,23 +13,20 @@
 
   <entry>
     <title>Test EPUB</title>
-
-    <id>urn:x3:test-epub</id>
-
+    <id>urn:x3:test</id>
     <updated>2026-09-07T00:00:00Z</updated>
 
     <author>
       <name>Test</name>
     </author>
 
-    <content type="text">
-      Test download for the XTEINK X3.
-    </content>
+    <content type="text">Test book for CrossPoint.</content>
 
     <link
       rel="http://opds-spec.org/acquisition"
-      href="books/test.epub"
+      href="books/Flowers for Algernon.epub"
       type="application/epub+zip"/>
   </entry>
 
+</feed>
 </feed>
