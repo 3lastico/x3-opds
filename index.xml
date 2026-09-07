@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-      xmlns:opds="http://opds-spec.org/2010/catalog">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
 
-  <id>urn:x3:newspapers</id>
-  <title>X3 Newspapers</title>
-  <updated>2026-09-07T16:32:30Z</updated>
+  <id>urn:x3:library</id>
+  <title>X3 Library</title>
+  <updated>2026-09-07T16:58:00Z</updated>
+
+  <link
+    rel="self"
+    href="https://3lastico.github.io/x3-opds/index.xml"
+    type="application/atom+xml;profile=opds-catalog;kind=acquisition" />
+
+  <entry>
+    <title>Daily Brief — 07 September 2026</title>
+    <id>urn:x3:daily:2026-09-07</id>
+    <updated>2026-09-07T00:00:00Z</updated>
+    <author>
+      <name>X3 Daily Brief</name>
+    </author>
+    <summary type="text">Daily Brief — 07 September 2026</summary>
+    <link
+      rel="http://opds-spec.org/acquisition/open-access"
+      href="https://3lastico.github.io/x3-opds/books/daily/daily-brief-2026-09-07.epub"
+      type="application/epub+zip" />
+  </entry>
 
   <entry>
     <title>The Economist — 05 September 2026</title>
