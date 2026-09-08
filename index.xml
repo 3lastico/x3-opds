@@ -3,12 +3,26 @@
 
   <id>urn:x3:library</id>
   <title>X3 Library</title>
-  <updated>2026-09-07T16:58:00Z</updated>
+  <updated>2026-09-08T08:44:09Z</updated>
 
   <link
     rel="self"
     href="https://3lastico.github.io/x3-opds/index.xml"
     type="application/atom+xml;profile=opds-catalog;kind=acquisition" />
+
+  <entry>
+    <title>Daily Brief — 08 September 2026</title>
+    <id>urn:x3:daily:2026-09-08</id>
+    <updated>2026-09-08T00:00:00Z</updated>
+    <author>
+      <name>X3 Daily Brief</name>
+    </author>
+    <summary type="text">Daily Brief — 08 September 2026</summary>
+    <link
+      rel="http://opds-spec.org/acquisition/open-access"
+      href="https://3lastico.github.io/x3-opds/books/daily/daily-brief-2026-09-08.epub"
+      type="application/epub+zip" />
+  </entry>
 
   <entry>
     <title>Daily Brief — 07 September 2026</title>
