@@ -3,12 +3,26 @@
 
   <id>urn:x3:library</id>
   <title>X3 Library</title>
-  <updated>2026-09-11T08:43:35Z</updated>
+  <updated>2026-09-12T08:41:25Z</updated>
 
   <link
     rel="self"
     href="https://3lastico.github.io/x3-opds/index.xml"
     type="application/atom+xml;profile=opds-catalog;kind=acquisition" />
+
+  <entry>
+    <title>Daily Brief — 12 September 2026</title>
+    <id>urn:x3:daily:2026-09-12</id>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <author>
+      <name>X3 Daily Brief</name>
+    </author>
+    <summary type="text">Daily Brief — 12 September 2026</summary>
+    <link
+      rel="http://opds-spec.org/acquisition/open-access"
+      href="https://3lastico.github.io/x3-opds/books/daily/daily-brief-2026-09-12.epub"
+      type="application/epub+zip" />
+  </entry>
 
   <entry>
     <title>Daily Brief — 11 September 2026</title>
@@ -95,16 +109,16 @@
   </entry>
 
   <entry>
-    <title>The New Yorker — 07 September 2026</title>
-    <id>urn:x3:new-yorker:2026-09-07</id>
-    <updated>2026-09-07T00:00:00Z</updated>
+    <title>The New Yorker — 14 September 2026</title>
+    <id>urn:x3:new-yorker:2026-09-14</id>
+    <updated>2026-09-14T00:00:00Z</updated>
     <author>
       <name>The New Yorker</name>
     </author>
-    <summary type="text">The New Yorker — 07 September 2026</summary>
+    <summary type="text">The New Yorker — 14 September 2026</summary>
     <link
       rel="http://opds-spec.org/acquisition/open-access"
-      href="https://raw.githubusercontent.com/hehonghui/awesome-english-ebooks/master/02_new_yorker/2026.09.07/new_yorker.2026.09.07.epub"
+      href="https://raw.githubusercontent.com/hehonghui/awesome-english-ebooks/master/02_new_yorker/2026.09.14/new_yorker.2026.09.14.epub"
       type="application/epub+zip" />
   </entry>
 
